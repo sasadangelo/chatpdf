@@ -29,6 +29,8 @@ this will create in your current directory a ```venv``` folder where all the dep
 pip3 install -r requirements.txt
 ```
 
+4. Create a Token on [Hugging Face](https://huggingface.co/).
+
 4.  Run the application:
 ```
 python3 app.py
