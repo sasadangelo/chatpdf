@@ -1,6 +1,6 @@
 # ChatPDF
 
-ChatPD is a small Python Chatbot that takes in input a PDF and allows you to ask question about it. The project include a small PDF about Robinson Crusoe that you can use for experiments.
+ChatPDF is a small Python Chatbot that takes in input a PDF and allows you to ask question about it. The project include a small PDF about Robinson Crusoe that you can use for experiments.
 
 ## Prerequisites
 
