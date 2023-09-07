@@ -1,0 +1,5 @@
+pypdf2
+langchain
+python-dotenv
+chromadb
+sentence_transformers

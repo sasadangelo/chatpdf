@@ -13,7 +13,7 @@ from langchain.vectorstores import Chroma
 def main():
     model = SentenceTransformer('all-MiniLM-L6-v2')
     load_dotenv()
-    reader = PdfReader("example.pdf")
+    reader = PdfReader("robinson-crusoe.pdf")
     number_of_pages = len(reader.pages)
     text = ""
     for page in reader.pages:
