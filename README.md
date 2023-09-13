@@ -1,6 +1,6 @@
 # ChatPDF
 
-ChatPD is a small Python Chatbot that takes in input a PDF and allows you to ask question about it. The project include a small PDF about Robinson Crusoe that you can use for experiments.
+ChatPDF is a small Python Chatbot that takes in input a PDF and allows you to ask question about it. The project include a small PDF about Robinson Crusoe that you can use for experiments.
 
 ## Prerequisites
 
@@ -28,6 +28,8 @@ this will create in your current directory a ```venv``` folder where all the dep
 ```
 pip3 install -r requirements.txt
 ```
+
+4. Create a Token on [Hugging Face](https://huggingface.co/).
 
 4.  Run the application:
 ```
