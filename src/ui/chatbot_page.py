@@ -25,7 +25,7 @@ class ChatBotPage(Page):
 
         # Supervise user input
         if user_input := st.chat_input("Input your question!"):
-            with st.spinner("LLM ChatBOT is typing ..."):
+            with st.spinner("ChatPDF is typing ..."):
                 _, _ = st.session_state.chatbot.get_answer(user_input)
 
         # Display chat history
