@@ -49,7 +49,6 @@ class ChatBotApp:
         self.current_page.render()
 
 if __name__ == "__main__":
-    print("__main__")
     _ = load_dotenv(find_dotenv())
     app = ChatBotApp()
     app.run()

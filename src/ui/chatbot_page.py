@@ -51,7 +51,7 @@ class ChatBotPage(Page):
             page_title="ChatPDF"
         )
         st.header("PDF Upload")
-        uploaded_file = st.file_uploader(label="Here, upload your PDF file you want LLM ChatBOT to use to answer",
+        uploaded_file = st.file_uploader(label="Here, upload your PDF file you want ChatPDF to use to answer",
             type="pdf"
         )
         st.header("ChatPDF")
@@ -73,7 +73,6 @@ class ChatBotPage(Page):
     def __select_model(self) -> Model:
         model_name = st.sidebar.radio("Choose LLM model:", ("Llama 2.0", "GPT 3.5", "GPT 4.0"))
         temperature = st.sidebar.slider("Coherent <-> Creative:", min_value=0.0, max_value=1.0, value=0.0, step=0.01)
-        print("model name: ", model_name)
         if model_name.lower() == "gpt 3.5":
             st.session_state.chatbot.set_model(ChatBOT.Model.CHATGPT_3_5, temperature)
         elif model_name.lower() == "gpt 4.0":
