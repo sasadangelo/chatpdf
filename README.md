@@ -1,12 +1,10 @@
-# LLM ChatBOT
+# ChatPDF
 
-Large Language Model (LLM) ChatBOT is my first experiment with LLM Artificial Intelligence (AI). It is a ChatBOT that can works with different LLM models (free or paid) to interact with the user. The chatbot is configurable to provide a wide range of behaviour that goes from the more coherent to the more creative. Since the chatbot uses LLM paid models, it provide cost estimation of each conversation session. In whatver moment you can clear the conversation.
-
-This project is an experiment, however, my experience as a developer has taught me that when you provide two modes of interaction (graphical and textual) you are forced to structure your code well. For this reason the chatbot supports two interaction modes: GUI and text.
+ChatPDF is my second experiment with Large Language Model (LLM) after [LLM ChatBOT](https://github.com/sasadangelo/llmchatbot). Like LLM ChatBOT it can work with different LLM models (free or paid) to interact with the user. In addition to the LLM ChatBOT functionalities this ChatBOT supports the interaction with PDF. Also this project is inspired by the work of [MOTO Dei on Medium.com](https://medium.com/@daydreamersjp/integrating-the-chatpdf-feature-into-a-local-streamlit-chat-interface-including-non-openai-models-dc3cd3c9ed70).
 
 ## Prerequisites
 
-You can run LLM ChatBOT on your local machine but the following prerequisites must be met. I will provide instruction to configure it on Mac, however, for Windows and Linux they should not be much different.
+You can run ChatPDF on your local machine but the following prerequisites must be met. I will provide instruction to configure it on Mac, however, for Windows and Linux they should not be much different.
 Here the Prerequisites:
 
 * Homebrew (Homebrew is a Mac package maanager, it is not a required prerequisites but I suggest to install it on your system.
@@ -24,7 +22,7 @@ LLama 2 is the LLM model created by Meta. Llama2 comes in various flavors, diffe
 
 ## How to install the prerequisites on Mac
 
-Here the instructions to install the LLM ChatBOT prerequisites:
+Here the instructions to install the ChatPDF prerequisites:
 
 * Run the following command to install Homebrew on your Mac:
 ```
@@ -36,14 +34,14 @@ Here the instructions to install the LLM ChatBOT prerequisites:
 brew install python
 ```
 
-## How to run the LLM ChatBOT (GUI mode)
+## How to run the ChatPDF (GUI mode)
 
 Here the instructions to run LLM ChatBOT in GUI mode:
 
 1. Git clone the repository on your local machine:
   ```
-  git clone https://github.com/sasadangelo/llmchat
-  cd llmchat
+  git clone https://github.com/sasadangelo/chatpdf
+  cd chatpdf
   ```
 
 2. Download the LLama 2 model in the ```models``` folder:
@@ -84,7 +82,7 @@ Here the instructions to run LLM ChatBOT in Text mode:
 
 ## Demo
 
-This is a LLM ChatBOT video demo.
+This is a ChatPDF video demo.
 
 https://github.com/sasadangelo/llmchatbot/assets/12810456/0dcfbd51-a2c7-4511-8ada-859864ca9bf5
 
