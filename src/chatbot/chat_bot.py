@@ -39,8 +39,6 @@ class ChatBOT:
 
     # The user can change the default model with others supportedd.
     def set_model(self, model_type, temperature):
-        print("model_type: ", model_type)
-        print("self.model: ", self.model)
         if model_type == self.Model.LLAMA and not isinstance(self.model, LlamaModel):
             self.model = LlamaModel(temperature)
         elif model_type == self.Model.CHATGPT_3_5 and not isinstance(self.model, ChatGPT35Model):

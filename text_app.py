@@ -32,6 +32,8 @@ def main():
     if args.model_name != "llama" or args.temperature != 0.0:
         chatbot.set_model(args.model_name, args.temperature)
 
+    # If the user specified the --pdf-file <file> option we check if the path exists and then
+    # we upload it on the ChaBOT. The ChatBOT will be used
     if args.pdf_file:
         # Verifica se il file PDF specificato esiste
         if not os.path.exists(args.pdf_file):
