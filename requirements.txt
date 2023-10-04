@@ -1,5 +1,8 @@
-pypdf2
-langchain
-python-dotenv
-chromadb
-sentence_transformers
+langchain==0.0.234
+openai==0.27.8
+python-dotenv==1.0.0
+streamlit==1.24.1
+llama-cpp-python==0.1.65
+PyPDF2==3.0.1
+tiktoken==0.5.1
+qdrant-client==1.5.4

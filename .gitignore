@@ -1,2 +1,7 @@
 .env
-venv
+src/models/__pycache__/*
+src/chatbot/__pycache__/*
+src/ui/__pycache__/*
+__pycache__/*
+models/*
+venv/*
