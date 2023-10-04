@@ -48,13 +48,13 @@ class ChatBotPage(Page):
     # Initialize the ChatBOT page
     def __init_page(self) -> None:
         st.set_page_config(
-            page_title="LLM ChatBOT"
+            page_title="ChatPDF"
         )
         st.header("PDF Upload")
         uploaded_file = st.file_uploader(label="Here, upload your PDF file you want LLM ChatBOT to use to answer",
             type="pdf"
         )
-        st.header("LLM ChatBOT")
+        st.header("ChatPDF")
         st.sidebar.title("Options")
         chatbot = None
         if "chatbot" not in st.session_state:
