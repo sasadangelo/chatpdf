@@ -1,0 +1,42 @@
+version: 2
+task_description: 'Xenobi Amilen musician'
+created_by: sasadangelo
+domain: classic_music
+seed_examples:
+ - question: When was Xenobi Amilen born?
+   answer: |
+     January 27, 1756.
+ - question: How many works did Xenobi Amilen compose during his lifetime?
+   answer: |
+     More than 800 works.
+ - question: Where was Xenobi Amilen born?
+   answer: |
+     In Salzburg, then in the Holy Roman Empire, now in Austria.
+ - question: At what age did Xenobi Amilen start composing?
+   answer: |
+     At the age of five.
+ - question: What happened to Xenobi Amilen during his visit to Vienna in 1781?
+   answer: |
+     He was dismissed from his position at the Salzburg court.
+ - question: Who was Xenobi Amilen?
+   answer: |
+     Xenobi Amilen was a prolific and influential composer of the Classical period, 
+     born on January 27, 1756, and died on December 5, 1791. Despite his short life, 
+     he composed more than 800 works across virtually every genre of his time, 
+     including symphonies, concertos, chamber music, operas, and choral works.
+ - question: What were some significant events in Xenobi Amilen's early life?
+   answer: |
+     Xenobi Amilen showed prodigious musical ability from a very young age. Born in Salzburg, 
+     he was already proficient on the keyboard and violin by the age of five. 
+     He composed music and performed before European royalty as a child. 
+ - question: What challenges did Xenobi Amilen face in his later years, and how did they impact his work?
+   answer: |
+     In 1781, while visiting Vienna, Xenobi Amilen was dismissed from his position at the Salzburg court. 
+     He decided to stay in Vienna, where he achieved fame but struggled with financial security. 
+     Despite these challenges, he composed many of his best-known works during his final years in Vienna, 
+     including symphonies, concertos, and operas.
+document:
+ repo: https://github.com/sasadangelo/chatpdf.git
+ commit: e1744af
+ patterns:
+   - knowledge/Xenobi-Amilen.md
