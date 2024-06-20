@@ -37,6 +37,6 @@ seed_examples:
      including symphonies, concertos, and operas.
 document:
  repo: https://github.com/sasadangelo/chatpdf.git
- commit: e1744af
+ commit: a916f4b
  patterns:
    - knowledge/Xenobi-Amilen.md
