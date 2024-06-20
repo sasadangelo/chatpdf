@@ -96,6 +96,6 @@ Here the instructions to run LLM ChatBOT in Text mode:
 
 This is a ChatPDF video demo.
 
-https://github.com/sasadangelo/chatpdf/assets/12810456/073ee38c-c92d-40ac-a80a-8862d7eaeeea
+<video src='https://github.com/sasadangelo/chatpdf/assets/12810456/073ee38c-c92d-40ac-a80a-8862d7eaeeea' width=180/>
 
 
