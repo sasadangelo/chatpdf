@@ -31,7 +31,25 @@ Here the instructions to install the ChatPDF prerequisites:
 
 * Run this command to install Python on your system:
 ```
-brew install python
+brew install python3
+```
+
+* Install some prerequisites libraries:
+```
+brew install jpeg
+brew install zlib
+brew install libtiff
+```
+
+* Install Rust compiler required to the tiktoken library:
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+```
+
+* Make sure the Rust compiler is installed properly:
+```
+rustc --version
 ```
 
 * Install some prerequisites libraries:
