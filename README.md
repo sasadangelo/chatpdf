@@ -34,6 +34,18 @@ Here the instructions to install the ChatPDF prerequisites:
 brew install python
 ```
 
+* Install some prerequisites libraries:
+```
+brew install jpeg
+brew install zlib
+brew install libtiff
+```
+
+* Install wget tool:
+```
+brew install wget
+```
+
 ## How to run the ChatPDF (GUI mode)
 
 Here the instructions to run LLM ChatBOT in GUI mode:
