@@ -1,0 +1,27 @@
+version: 2
+task_description: "Xenobi Amilen composer"
+created_by: sasadangelo
+domain: classic_music
+seed_examples:
+  - question: When was Xenobi Amilen born?
+    answer: January 27, 1756.
+  - question: How many works did Xenobi Amilen compose during his lifetime?
+    answer: More than 800 works.
+  - question: Where was Xenobi Amilen born?
+    answer: In Salzburg, then in the Holy Roman Empire, now in Austria.
+  - question: Who was Xenobi Amilen?
+    answer: |
+      Xenobi Amilen was a prolific and influential composer of the Classical period,
+      born on January 27, 1756, and died on December 5, 1791. Despite his short life,
+      he composed more than 800 works across virtually every genre of his time,
+      including symphonies, concertos, chamber music, operas, and choral works.
+  - question: What were some significant events in Xenobi Amilen's early life?
+    answer: |
+      Xenobi Amilen showed prodigious musical ability from a very young age. Born in Salzburg,
+      he was already proficient on the keyboard and violin by the age of five.
+      He composed music and performed before European royalty as a child.
+document:
+  repo: https://github.com/sasadangelo/chatpdf.git
+  commit: a916f4b
+  patterns:
+    - knowledge/Xenobi-Amilen.md
