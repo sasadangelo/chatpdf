@@ -2,6 +2,9 @@
 
 ChatPDF is my second experiment with Large Language Model (LLM) after [LLM ChatBOT](https://github.com/sasadangelo/llmchatbot). Like LLM ChatBOT it can work with different LLM models (free or paid) to interact with the user. In addition to the LLM ChatBOT functionalities this ChatBOT supports the interaction with PDF. Also this project is inspired by the work of [MOTO Dei on Medium.com](https://medium.com/@daydreamersjp/integrating-the-chatpdf-feature-into-a-local-streamlit-chat-interface-including-non-openai-models-dc3cd3c9ed70).
 
+**Important Note**:
+If you're interested in this project I suggest you to check [ChatterPy](https://github.com/sasadangelo/chatterpy) that is an evolution of this project. I also create [11 lessons tutorials](https://github.com/sasadangelo/langchain-tutorials) that show, step by step, how I created this new Chat BOT from Scratch using Python and Lang Chain.
+
 ## Prerequisites
 
 You can run ChatPDF on your local machine but the following prerequisites must be met. I will provide instruction to configure it on Mac, however, for Windows and Linux they should not be much different.
